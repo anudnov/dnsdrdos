@@ -18,6 +18,12 @@
  *                                                                             *
  * AUTHOR:                                                                     *
  * - noptrix (http://www.noptrix.net/ - http://www.majorsecurity.net)          *
+ *
+ *1. # gcc  dndrdos.c  -o dndrdos.o  -Wall -ansi 
+ *2. Create a list of dns servers  in a file dnslist.txt
+ *3. Create a list of domains  in a file domainlist.txt
+ *
+ ./dnsdrdos.o  -f  Dnsfilelist.txt  -s   -l 
  ******************************************************************************/
 
 #include <stdio.h>
