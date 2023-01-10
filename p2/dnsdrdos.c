@@ -23,7 +23,7 @@
  *2. Create a list of dns servers  in a file dnslist.txt
  *3. Create a list of domains  in a file domainlist.txt
  *
- ./dnsdrdos.o  -f  Dnsfilelist.txt  -s   -l 
+ * sudo ./dnsdrdos.o -f dnslist.txt -s 10.10.10.10 -d domainlist.txt -l 10000
  ******************************************************************************/
 
 #include <stdio.h>
